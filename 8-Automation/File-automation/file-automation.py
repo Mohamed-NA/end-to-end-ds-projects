@@ -1,7 +1,7 @@
 import os, shutil, platform, datetime
 
-source = r"D:\ettbtm\Work\konecta\Internship"
-target = r"D:\ettbtm\Work\konecta\Internship\hands-on\automation"
+source = r"path to source"
+target = r"path to target"
 extensions = {item.split('.')[-1] for item in os.listdir(source) if os.path.isfile(os.path.join(source, item))}
 
 def copy_by_date(source, target, exts = extensions):
