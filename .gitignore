@@ -1,0 +1,7 @@
+# DotEnv configurations
+# This file is used to manage environment variables for the project.
+# It is not meant to be tracked by version control systems like Git.
+# The following lines are examples of environment variables that can be set.
+# Uncomment and set your own values as needed.
+
+.env
